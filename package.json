@@ -5,7 +5,7 @@
     "node": "6.6.0"
   },
   "description": "Blog using React Redux",
-  "main": "./src/index.js",
+  "main": "../src/index.js",
   "repository": "git@github.com:JRiepe/reactblog.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
