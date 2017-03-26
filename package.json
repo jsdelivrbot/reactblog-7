@@ -1,6 +1,9 @@
 {
   "name": "reactblog",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.6.0"
+  },
   "description": "Blog using React Redux",
   "main": "index.js",
   "repository": "git@github.com:JRiepe/reactblog.git",
