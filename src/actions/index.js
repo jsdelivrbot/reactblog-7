@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const ROOT_URL = MONGODB_URI;
-// const API_KEY = '?key=jdr1964';
+const ROOT_URL = 'mongodb://heroku_vtf64rv4:vdmjmlp3glgarevcm0dfc9atng@ds143000.mlab.com:43000/heroku_vtf64rv4';
+const API_KEY = '?key=jdr1964';
 
 export const FETCH_POSTS = 'FETCH_POSTS';
 export const CREATE_POST = 'CREATE_POST';
