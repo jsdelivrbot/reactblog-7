@@ -9,7 +9,6 @@
   "repository": "git@github.com:JRiepe/reactblog.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    // "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
@@ -33,7 +32,6 @@
     "axios": "^0.15.3",
     "babel-preset-stage-1": "^6.1.18",
     "express": "^4.15.2",
-    "http": "0.0.0",
     "lodash": "^3.10.1",
     "path": "^0.12.7",
     "pug": "^2.0.0-beta11",
