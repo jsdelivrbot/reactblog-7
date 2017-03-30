@@ -27434,7 +27434,10 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var ROOT_URL = 'http://reduxblog.herokuapp.com/api';
+	// import mongojs from 'mongojs';
+
+	var ROOT_URL = 'https://reduxblog.herokuapp.com/api';
+	//const ROOT_URL = '';
 	var API_KEY = '?key=jdr1964';
 
 	var FETCH_POSTS = exports.FETCH_POSTS = 'FETCH_POSTS';
