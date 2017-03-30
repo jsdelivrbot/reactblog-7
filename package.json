@@ -8,11 +8,12 @@
   "main": "./src/index.js",
   "repository": "git@github.com:JRiepe/reactblog.git",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
     "prod": "NODE_ENV=production node server.js",
-    "postinstall": "webpack"
+    "postinstall": "webpack -p",
+    "start": "node server.js"
   },
   "author": "John Riepe",
   "license": "ISC",
